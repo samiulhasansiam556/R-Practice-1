@@ -8,7 +8,6 @@ import Gallery from './Pages/Gallery';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Not from './Pages/Not'
-import Nav from './Components/Nav';
 
 
 function App() {

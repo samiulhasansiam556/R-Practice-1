@@ -2,11 +2,79 @@
 
 .MostPP{
     width: 100%;
-    margin-top: 100px;
-    height: 200px;
-    background-color: violet;
+    height: 100vh;
+    background-color: rgb(250, 250, 250);
+    position: relative;
+
+    padding-top: 30px;
+     
+   
 }
 
 .MostPP .Mh2{
-    background-color: green;
+    margin-top: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: fantasy;
+   color: blue;
+   font-size: 28px;
 }
+
+.mainBox{
+     width: 70%;
+     height: 70vh;
+    margin-left: 15%;
+    margin-top: 15vh;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+
+}
+
+.box1{
+    padding: 15px;
+    width: 30%;
+    height: 89%;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 3px 4px 4px rgb(35, 14, 14); 
+   position: relative;
+   transition: 0.5s ease-in-out;
+   overflow: hidden;
+}
+    
+
+
+.img1{
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 0 5px;
+}
+
+.heart1{
+    position: absolute;
+    right: 30px;
+    top: 300px;
+    color: red;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.heart1:hover{
+    position: absolute;
+    right: 30px;
+    top: 300px;
+    color: rgb(16, 2, 2);
+    font-size: 25px;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,69 @@
+
+.Gallery{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.main0 {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+    width: 80%;
+    gap: 10px 15px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.maindiv {
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+}
+
+.maindiv img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.sidediv {
+    position: absolute;
+    overflow: hidden;
+    background-color: #000000;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    transition: .5s;
+
+}
+
+.maindiv:hover .sidediv {
+    height: 100%;
+    opacity: 0.5;
+}
+
+.underdiv {
+    position: absolute;
+    /* overflow: hidden; */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.underdiv h2 {
+    font-size: 25px;
+}
+
+.underdiv p {
+    font-size: 20px;
+}
